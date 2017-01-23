@@ -35,7 +35,7 @@ class main:
         self.detectionTollerance = newTollerance
         
     def getSegmentCount(self):
-		"""Returns the number of segments per frame"""
+		"""Returns the number of segments per frame """
 		return self.segmentCount
 	def getSegmentAccuracy(self):
 		"""Returns the reciprocal coefficient of the amount of pixels to be analysed per segment"""
