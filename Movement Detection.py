@@ -35,14 +35,14 @@ class main:
         self.detectionTollerance = newTollerance
         
     def getSegmentCount(self):
-		"""Returns the number of segments per frame """
-		return self.segmentCount
-	def getSegmentAccuracy(self):
-		"""Returns the reciprocal coefficient of the amount of pixels to be analysed per segment"""
-		return self.segmentAccuracy
-	def getDetectionTollerance(self):
-		"""Returns the difference of the RGB average between segments in frames that has to be surpassed to trigger movement"""
-		return self.detectionTollerance
+	"""Returns the number of segments per frame"""
+	return self.segmentCount
+    def getSegmentAccuracy(self):
+	"""Returns the reciprocal coefficient of the amount of pixels to be analysed per segment"""
+	return self.segmentAccuracy
+    def getDetectionTollerance(self):
+	"""Returns the difference of the RGB average between segments in frames that has to be surpassed to trigger movement"""
+	return self.detectionTollerance
         
     def startRecord(self):
         #current and old frame start as the same - now called frame
